@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+  position: relative;
+  margin-top: 10%;
+}
+
+.createArticlBtn {
+  height: 50px;
+  border-radius: 10px;
+  color: cornsilk;
+  font-size: x-large;
+  background-color: coral ;
+  font-family:  'Times New Roman';
+}
+.authorDetailTxt {
+  margin-top: 10%;
+}
+
+.authorDetailTxt {
+  font-family:  'Times New Roman';
+}
+.authorDetailDiv {
+  margin-top: 5%;
+}
+
+.createArticleDialog {
+  position: absolute;
+  margin-left: 30%;  height: 500px;
+  width: 400px;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+}
+.saveCloseBtn {
+  height: 30px;
+  width: 100px;
+  margin-top: 10%;
+ border-radius: 10px;
+  color: cornflowerblue;
+  font-size: small;
+  background-color: white ;
+  font-family:  'Times New Roman';
+}
+
+.inputText {
+  margin-top: 5%;
+  width: 70%;
+  border-radius: 5px;
+  height: 20px;
+}
+
+.textArea {
+  margin-top: 5%;
+  width: 70%;
+  border-radius: 5px;
+  min-height: 20px;
+  max-height: 70px;
+}
+.saveCancelBtn {
+  flex-wrap: wrap;
+
+}
+.itemList {
+  display: grid;
+  grid-template-columns: auto auto
+}
+
+.arlicleList {
+  text-align: center;
+}
+
+
+
+
+
+
+
+.react-bs-table-container {
+  margin: 10px 10px;
+}
+/* 
+.my-body-class {
+  border: #000;
+  border-w;
+} */
+
+.my-header-class {
+  /* margin: auto; */
+  background-color: #FFBB73;
+}
+
+.my-container-class {
+  /* border: #0000FF 2.5px solid; */
+  margin-top: 4%;
+}
+
+.my-table-container-class {
+  margin: auto;
+  width: 50%;
+  border: 1; 
+
+  /* border: #FFBB73 5px solid; */
+}
+table, th, td {
+  border: 2px solid rgb(169, 231, 141);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
